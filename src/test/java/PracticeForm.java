@@ -37,6 +37,9 @@ public class PracticeForm {
         $("[id=\"submit\"]").click();
 
 
+        $("[id=\"example-modal-sizes-title-lg\"]").shouldHave(text("Thanks for submitting the form"));
+
+
 
 
 
